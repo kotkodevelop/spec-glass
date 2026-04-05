@@ -749,7 +749,7 @@ body.modal-open { overflow: hidden; }
   .logo-meta { display: none; }
   .btn { width: 100%; }
   .tree-card {
-    padding: 28px 16px;
+    padding: 28px 24px;
   }
 }
 
