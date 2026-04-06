@@ -46,3 +46,17 @@
 
 
 
+// Mob menu
+const header = document.querySelector('.site-header');
+const menuBtn = document.querySelector('.mobile-menu-btn');
+
+if (menuBtn && header) {
+  menuBtn.addEventListener('click', () => {
+    header.classList.toggle('menu-open');
+
+    const isOpen = header.classList.contains('menu-open');
+    menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+}
+
+
